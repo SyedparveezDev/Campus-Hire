@@ -1,25 +1,21 @@
 "use client"
 
-import { useState, useEffect } from "react"
+// hooks/use-mobile.ts
+import { useEffect, useState } from 'react';
 
-export function useMobile() {
-  const [isMobile, setIsMobile] = useState(false)
+export function useIsMobile(): boolean {
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
-    // Function to check if the screen width is mobile
-    const checkMobile = () => {
-      setIsMobile(window.innerWidth < 768)
-    }
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768); // or any breakpoint you want
+    };
 
-    // Initial check
-    checkMobile()
+    handleResize(); // initial check
+    window.addEventListener('resize', handleResize);
 
-    // Add event listener for window resize
-    window.addEventListener("resize", checkMobile)
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
-    // Clean up event listener
-    return () => window.removeEventListener("resize", checkMobile)
-  }, [])
-
-  return isMobile
+  return isMobile;
 }
