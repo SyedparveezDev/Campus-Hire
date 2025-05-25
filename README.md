@@ -15,10 +15,11 @@ A modern full-stack web application that connects students with freelance projec
 
 ## 🛠️ Tech Stack
 **Frontend:** React.js, Tailwind CSS  
-**Backend:** Node.js, Express.js  
+**Backend:** Node.js, Express.js   
 **Database:** MongoDB  
 **Auth:** JWT, OAuth  
 **Others:** Socket.io (chat), Stripe API (planned), Cloudinary (uploads)
+**Upcomming** python and the use full AI in next Deployment
 
 ## 📌 Project Goals
 - Promote student collaboration on real-world projects
