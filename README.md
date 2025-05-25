@@ -25,6 +25,7 @@ A modern full-stack web application that connects students with freelance projec
 - Promote student collaboration on real-world projects
 - Help students gain freelancing experience early
 - Create a community-driven talent pool for startups and individuals
+- My always favriout every student should tell this.
 
 ---
 
