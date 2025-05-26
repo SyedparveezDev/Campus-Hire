@@ -1,9 +1,9 @@
-# Campushire - Student Freelance Collaboration Platform
-A modern full-stack web application that connects students with freelance projects, enabling peer collaboration, skill development, and real-world experience. Campushire aims to empower students by providing a platform to showcase their talents, build portfolios, and earn while they learn.
+# Campus-hire - Student Freelance Collaboration Platform
+A modern full-stack web application that connects students with freelance projects, enabling peer collaboration, skill development, and real-world experience. Campus-hire aims to empower students by providing a platform to showcase their talents, build portfolios, and earn while they learn.
 
-# Campushire 🎓💼
+# Campus-hire 🎓💼
 
-**Campushire** is a full-stack platform designed to connect students with freelance opportunities and collaborative projects. Built with a modern tech stack, Campushire empowers students to work together, enhance their skills, and build their careers while still in college.
+**Campus-hire** is a full-stack platform designed to connect students with freelance opportunities and collaborative projects. Built with a modern tech stack, Campus-hire empowers students to work together, enhance their skills, and build their careers while still in college.
 
 ## 🚀 Features
 - Student and client authentication
