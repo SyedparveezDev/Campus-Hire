@@ -2,7 +2,7 @@
 
 A modern full-stack web application that connects students with freelance projects, enabling peer collaboration, skill development, and real-world experience. Campus-hire aims to empower students by providing a platform to showcase their talents, build portfolios, and earn while they learn.
 
-# Campus-hire 🎓💼
+## Campus-hire 🎓💼
 
 **Campus-hire** is a full-stack platform designed to connect students with freelance opportunities and collaborative projects. Built with a modern tech stack, Campus-hire empowers students to work together, enhance their skills, and build their careers while still in college.
 
@@ -16,8 +16,9 @@ A modern full-stack web application that connects students with freelance projec
 - Secure payment workflow (future enhancement)
 
 ## 🛠️ Tech Stack
+
 **Frontend:** React.js, Tailwind CSS  
-**Backend:** Node.js, Express.js   
+**Backend:** Node.js, Express.js
 **Database:** MongoDB  
 **Auth:** JWT, OAuth  
 **Others:** Socket.io (chat), Stripe API (planned), Cloudinary (uploads)
